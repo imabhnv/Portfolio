@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "description": "Abhinav Varshney - Developer Portfolio",
+  "homepage": "https://imabhnv.github.io/Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -16,6 +19,9 @@
     "react-icons": "^4.10.1",
     "react-scripts": "5.0.1",
     "typewriter-effect": "^2.19.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   },
   "browserslist": {
     "production": [

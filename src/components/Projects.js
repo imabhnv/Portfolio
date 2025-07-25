@@ -5,15 +5,18 @@ import './Projects.css';
 const projects = [
   {
     title: 'Kundali Summarizer',
-    description: 'A full-stack AI astrology platform web-application that simplifies the usage of Astrosage.com '
+    description: 'A full-stack AI astrology platform web-application that simplifies the usage of Astrosage.com',
+    link: 'https://github.com/imabhnv/Kundali-Summarizer'
   },
   {
     title: 'AI-powered Career Coach',
-    description: 'Interactive system offering career roadmaps and many more stuff along with a chatBot.'
+    description: 'Interactive system offering career roadmaps and many more stuff along with a chatBot.',
+    link: 'https://github.com/imabhnv/AI-Career-Coach'
   },
   {
     title: 'Fitness AI',
-    description: 'An AI-powered fitness trainer that analyze posture and count reps for key exercises via video or webcam.'
+    description: 'An AI-powered fitness trainer that analyzes posture and counts reps for key exercises via video or webcam.',
+    link: 'https://github.com/imabhnv/Fitness-AI'
   }
 ];
 
@@ -38,7 +41,11 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.2 }}
             >
-              <h3>{project.title}</h3>
+              <h3>
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                  {project.title}
+                </a>
+              </h3>
               <p>{project.description}</p>
             </motion.div>
           ))}

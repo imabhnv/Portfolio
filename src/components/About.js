@@ -24,10 +24,10 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.8 }}
         >
-          I'm Abhinav Varshney, a B.Tech CSE student passionate about building AI-powered applications.
-          I've interned remotely in Data Science roles, and built apps ranging from astrology platforms to AI career coaches.
-          I'm currently serving as Deputy Secretary at Bitwise Club, mentoring juniors in DSA and Data Science.
-          Let's create something awesome together. 🚀
+            I'm Abhinav Varshney, B.Tech CSE student with a passion for developing AI-based applications.
+            I've worked as remote intern in Data Science positions, and developed apps from astrology websites to AI career guides.
+            I'm currently working as Deputy Secretary of Bitwise Club, guiding juniors in DSA and Data Science.
+            Let's do something great together✌️ 
         </motion.p>
       </motion.div>
     </section>
