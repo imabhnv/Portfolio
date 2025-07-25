@@ -1,0 +1,44 @@
+.contact {
+  padding: 100px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass-card {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  max-width: 700px;
+  width: 100%;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #00f7ff;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.contact-links a {
+  color: #00f7ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: #ffffff;
+}

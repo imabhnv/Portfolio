@@ -1,0 +1,45 @@
+.projects {
+  padding: 100px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass-card {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  max-width: 900px;
+  width: 100%;
+}
+
+.projects h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #00f7ff;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.project-item {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.project-item h3 {
+  color: #00f7ff;
+  margin-bottom: 8px;
+}

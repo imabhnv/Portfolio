@@ -1,0 +1,35 @@
+.hero {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.glass-card {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  max-width: 800px;
+  width: 100%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #00f7ff;
+}
+
+.typewriter {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+}

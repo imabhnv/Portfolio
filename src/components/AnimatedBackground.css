@@ -1,0 +1,22 @@
+.animated-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background: radial-gradient(circle, #0f0f0f, #000000);
+  overflow: hidden;
+  animation: bgPulse 8s infinite alternate ease-in-out;
+}
+
+@keyframes bgPulse {
+  0% {
+    background-position: 0% 50%;
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    background-position: 100% 50%;
+    filter: hue-rotate(60deg);
+  }
+}

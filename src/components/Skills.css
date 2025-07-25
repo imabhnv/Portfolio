@@ -1,0 +1,54 @@
+.skills {
+  padding: 100px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass-card {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  max-width: 900px;
+  width: 100%;
+}
+
+.skills h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #00f7ff;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.skill-item {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 15px 25px;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.08);
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #00f7ff;
+}
