@@ -21,7 +21,7 @@ const App = () => {
         playsInline
         className="background-video"
       >
-        <source src={`${process.env.PUBLIC_URL}/video.mp4`} type="video/mp4" />
+        <source src={`${process.env.PUBLIC_URL}/video3.mp4`} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
