@@ -16,7 +16,7 @@ const projects = [
   {
     title: 'Fitness AI',
     description: 'An AI-powered fitness trainer that analyzes posture and counts reps for key exercises via video or webcam.',
-    link: 'https://github.com/imabhnv/Fitness-AI'
+    link: 'https://github.com/imabhnv/AI-Fitness-Trainer'
   }
 ];
 

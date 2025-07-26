@@ -1,3 +1,13 @@
+* {
+  font-family: Consolas, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: Consolas, monospace;
+}
 
 body {
   margin: 0;

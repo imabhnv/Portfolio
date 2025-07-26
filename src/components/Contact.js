@@ -19,7 +19,7 @@ const Contact = () => {
           <a href="mailto:varshneyabhinav66@gmail.com">Mail</a>
           <a href="https://www.linkedin.com/in/abhinav-varshney">LinkedIn</a>
           <a href="https://github.com/abhinavvarshney">GitHub</a>
-          <a href="/My_Resume.pdf" download>Download Resume</a>
+          <a href={`${process.env.PUBLIC_URL}/My_Resume.pdf`} download>Download Resume</a>
         </div>
       </motion.div>
     </section>
