@@ -26,7 +26,7 @@ const About = () => {
         >
             I'm Abhinav Varshney, B.Tech CSE student with a passion for developing AI-based applications.
             I've worked as remote intern in Data Science positions, and developed apps from astrology websites to AI career guides.
-            I'm currently working as Deputy Secretary of Bitwise Club, guiding juniors in DSA and Data Science.
+            I'm currently working as Advisor after serving as Deputy Secretary of Bitwise Club, guiding juniors in DSA and Data Science.
             Let's do something great together✌️ 
         </motion.p>
       </motion.div>
