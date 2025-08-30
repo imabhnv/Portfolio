@@ -14,6 +14,12 @@ const experiences = [
     company: 'NullClass',
     duration: 'Apr 2025 - May 2025',
     details: 'Built end-to-end ML workflows using Python & best practices.'
+  },
+  {
+    role: 'AI/ML',
+    company: 'propVIVO India Pvt Ltd',
+    duration: 'Aug 2025 - ',
+    details: 'Working on real world ML workflows and building AI products.'
   }
 ];
 
